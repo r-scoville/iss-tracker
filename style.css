@@ -1,0 +1,94 @@
+/* CSS 
+Generated from SASS (included below) using SassMeister */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
+
+body {
+  padding: 5%;
+  font-family: "Nunito Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #272727;
+  background-color: #fffff0;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h1 {
+  margin-top: 0%;
+  font-size: 34pt;
+  font-weight: lighter;
+}
+
+ul, ol {
+  padding: 3%;
+}
+
+footer {
+  font-size: 8pt;
+  margin-top: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#map {
+  height: 300px;
+}
+
+
+/* SASS */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
+
+$bg-color: #fffff0;
+$font-color: #272727;
+$default-padding: 5%;
+$line-height: 1.5;
+$font-sz: 12pt;
+$h1-font-sz: 34pt;
+$footer-font-sz: 8pt;
+$h-txt-transform: uppercase;
+$letter-spaced: 3px;
+$list-padding: 3%;
+$footer-margin-top: 10%;
+$footer-txt-align: center;
+ 
+body {
+    padding: $default-padding;
+    font-family: "Nunito Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: $font-sz;
+    line-height: $line-height;
+    color: $font-color;
+    background-color: $bg-color;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: $h-txt-transform;
+    letter-spacing: $letter-spaced;
+}
+
+h1 {
+    margin-top: 0%;
+    font-size: $h1-font-sz;
+    font-weight: lighter;
+}
+
+ul, ol {
+    padding: $list-padding;
+}
+
+footer {
+    font-size: $footer-font-sz;
+    margin-top: $footer-margin-top;
+    text-align: $footer-txt-align;
+    text-transform: $h-txt-transform;
+    letter-spacing: $letter-spaced;
+}
+
+#map { height: 300px; } */

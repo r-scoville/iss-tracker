@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project: ISS Tracker</title>
+
+    <!-- CSS (generated from SASS) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Source: Leaflet.js. Retrieved from: leafletjs.com.-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+
+    <!--Source: Leaflet.js. Retrieved from: leafletjs.com.-->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin="">
+    </script>
+</head>
+
+<body>
+
+    <h1>ISS Tracker</h1>
+    <!-- <p>“Even after 400 generations in villages and cities, we haven't forgotten. The open road still softly calls.” 
+        <br>(Carl Sagan, <i>Pale Blue Dot: A Vision of the Human Future in Space)</i></p><br><br> -->
+
+    <!-- Pt. 1: Live Map -->
+    <h2>Live Map</h2>
+    <p>Current latitude: <span id="lat"></span>°</p>
+    <p>Current longitude: <span id="long"></span>°</p><br>
+    <div id="map"></div><br><br>
+
+    <!-- Pt. 2: Weekly Report -->
+    <h2>Throughout Next Week ...</h2>
+
+    <ul>
+        <li>The ISS will be in sunlight <span id="dv-count"></span> days at this time.</li>
+        <li>The ISS will be eclipsed <span id="ev-count"></span> days at this time.</li>
+        <li>The ISS will have an average velocity of <span id="avg-velocity"></span> km per hour.</li>
+        <li>The ISS will have an average altitude of <span id="avg-alt"></span> km above Earth.</li>
+    </ul>
+
+    <!-- IIFE -->
+    <script src="main.js"></script>
+
+</body>
+
+<footer>
+    <p>Created by R. Scoville, 2021</p>
+</footer>
+</html>
