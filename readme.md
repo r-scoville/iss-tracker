@@ -2,8 +2,11 @@
 
 Author: Rose Scoville  
 Date: April 2021  
-
   
+![iss-tracker](https://github.com/user-attachments/assets/d87795c9-9e7a-40c1-8d55-5baa05c50482)  
+
+<br />
+
 ## About
 
 The ISS Tracker is a JavaScript-based, live map tracker that follows the International Space Station.  
@@ -13,9 +16,8 @@ In addition to live map updates, this platform provides predictive data a week i
 3. Sunlight exposure rate  
 4. Eclipse rate  
 
-![iss-tracker](https://github.com/user-attachments/assets/d87795c9-9e7a-40c1-8d55-5baa05c50482)  
-  
-  
+<br />
+
 ## Sources and References  
 
 1.  API: Where the ISS at?. Linzig, LLC. April 2021.  
