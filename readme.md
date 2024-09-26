@@ -1,10 +1,14 @@
-# ISS Tracker
+# ISS Live Tracker
 
 Author: Rose Scoville  
 Date: April 2021  
-  
-![iss-tracker](https://github.com/user-attachments/assets/d87795c9-9e7a-40c1-8d55-5baa05c50482)  
 
+<img width="695" alt="iss-tracker" src="https://github.com/user-attachments/assets/4abb1a10-be19-4183-82d1-965d1ae32365">  
+<br />
+Image: Screenshot of the ISS Live Tracker's frontend display  
+
+<br />
+<br />
 <br />
 
 ## About
