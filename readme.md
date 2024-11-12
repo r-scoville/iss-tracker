@@ -1,7 +1,6 @@
 # ISS Live Tracker
 
-Author: Rose Scoville  
-Date: April 2021  
+Author: Rose Scoville
 
 <img width="695" alt="iss-tracker" src="https://github.com/user-attachments/assets/4abb1a10-be19-4183-82d1-965d1ae32365">  
 <br />
